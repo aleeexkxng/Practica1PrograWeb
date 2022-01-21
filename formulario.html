@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contácto</title>
+</head>
+<body>
+    <form action="formulario.html" method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="correo"><br><br>
+        <label for="genero">Genero:</label><br>
+        <label for="gm">M</label>
+        <input type="radio" id="gm" name="genero" value="M">
+        <label for="gf">F</label>
+        <input type="radio" id="gf" name="genero" value="F">
+        <label for="gne">Prefiero no decirlo</label>
+        <input type="radio" id="gne" name="genero" value="NE"><br><br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña"><br><br>
+        <label for="comentario">Comentario: </label><br><br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea><br><br>
+        <label for="ciudad">Ciudad:</label>
+        <select name="ciudad" id="ciudad">
+            <option value="GDL">Guadalajara</option>
+            <option value="CDMX">Ciudad de Mexico</option>
+            <option value="MTY">Monterrey</option>
+            <option value="OAX">Oaxaca</option>
+        </select><br><br>
+        <label for="interes">Me interesa contratarte </label>
+        <input type="checkbox" name="interes" id="interes"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
